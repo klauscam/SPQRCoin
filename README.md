@@ -236,6 +236,6 @@ mkdir build
 cd build
 cmake -G "Visual Studio 12 Win64" ..
 ```
-
+cmake -G "Visual Studio 14 Win64" .. -DBOOST_ROOT=c:\local\boost_1_65_1
 And then do Build.
 Good luck!
